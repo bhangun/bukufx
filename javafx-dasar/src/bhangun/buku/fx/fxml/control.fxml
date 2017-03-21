@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.collections.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.chart.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.web.*?>
+
+
+        <Tab id="tab1" text="Komponen Kendali (Control)" xmlns:fx="http://javafx.com/fxml">
+          <content>
+            <AnchorPane id="Content" minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+              <children>
+                <ScrollPane id="scrollPane8" prefHeight="439.0" prefWidth="777.0">
+                  <content>
+                    <VBox id="vBox7" spacing="20.0">
+                      <children>
+                        <HBox id="hBox2" prefHeight="100.0" spacing="20.0">
+                          <children>
+                            <Button id="button2" text="Button" />
+                            <Button id="button4" text="Button" />
+                            <Button id="button3" opacity="0.72" text="Tombol" textOverrun="LEADING_ELLIPSIS">
+                              <effect>
+                                <DropShadow height="27.07142857142857" radius="11.517857142857142" spread="0.42857142857142855">
+                                  <input>
+                                    <Reflection bottomOpacity="0.15873015873015872" fraction="0.7182539682539683" topOffset="5.0" />
+                                  </input>
+                                </DropShadow>
+                              </effect>
+                            </Button>
+                            <Button id="button1" defaultButton="true" prefHeight="48.0" prefWidth="67.95841461420059" rotate="322.0" text="Button" textFill="WHITE">
+                              <effect>
+                                <Lighting diffuseConstant="0.26190476190476186" specularConstant="1.173015873015873" specularExponent="16.825396825396826" surfaceScale="2.0">
+                                  <bumpInput>
+                                    <Shadow />
+                                  </bumpInput>
+                                  <light>
+                                    <javafx.scene.effect.Light.Distant color="#a685ff" />
+                                  </light>
+                                </Lighting>
+                              </effect>
+                              <font>
+                                <Font name="Arial Rounded MT Bold" size="14.0" />
+                              </font>
+                            </Button>
+                          </children>
+                        </HBox>
+                        <HBox id="hBox3" prefHeight="100.0" prefWidth="200.0">
+                          <children>
+                            <ComboBox id="comboBox1">
+                              <items>
+                                <FXCollections fx:factory="observableArrayList">
+                                  <String fx:value="Item 1" />
+                                  <String fx:value="Item 2" />
+                                  <String fx:value="Item 3" />
+                                </FXCollections>
+                              </items>
+                            </ComboBox>
+                          </children>
+                        </HBox>
+                        <HBox id="hBox4" prefHeight="100.0" prefWidth="200.0">
+                          <children>
+                            <ChoiceBox id="choiceBox1">
+                              <items>
+                                <FXCollections fx:factory="observableArrayList">
+                                  <String fx:value="Item 1" />
+                                  <String fx:value="Item 2" />
+                                  <String fx:value="Item 3" />
+                                </FXCollections>
+                              </items>
+                            </ChoiceBox>
+                          </children>
+                        </HBox>
+                        <HBox id="hBox5" prefHeight="100.0" prefWidth="200.0">
+                          <children>
+                            <Hyperlink id="hyperlink1" text="Hyperlink" />
+                          </children>
+                        </HBox>
+                        <CheckBox id="checkBox1" text="CheckBox" />
+                        <ToggleButton id="toggleButton1" text="ToggleButton" />
+                      </children>
+                      <padding>
+                        <Insets bottom="20.0" left="20.0" top="20.0" />
+                      </padding>
+                    </VBox>
+                  </content>
+                </ScrollPane>
+              </children>
+            </AnchorPane>
+          </content>
+        </Tab>
+       

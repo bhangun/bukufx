@@ -1,0 +1,398 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.collections.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.chart.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.web.*?>
+
+<AnchorPane id="AnchorPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="570.0" prefWidth="777.0" xmlns:fx="http://javafx.com/fxml">
+  <children>
+    <TabPane id="tabPane1" layoutY="100.0" prefHeight="470.0" prefWidth="777.0" tabClosingPolicy="UNAVAILABLE">
+      <tabs>
+        <Tab id="tab1" text="Kompnen Kendali (Control)">
+          <content>
+            <AnchorPane id="Content" minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+              <children>
+                <ScrollPane id="scrollPane8" prefHeight="439.0" prefWidth="777.0">
+                  <content>
+                    <VBox id="vBox7" spacing="20.0">
+                      <children>
+                        <HBox id="hBox2" prefHeight="100.0" spacing="20.0">
+                          <children>
+                            <Button id="button2" text="Button" />
+                            <Button id="button4" text="Button" />
+                            <Button id="button3" opacity="0.72" text="Tombol" textOverrun="LEADING_ELLIPSIS">
+                              <effect>
+                                <DropShadow height="27.07142857142857" radius="11.517857142857142" spread="0.42857142857142855">
+                                  <input>
+                                    <Reflection bottomOpacity="0.15873015873015872" fraction="0.7182539682539683" topOffset="5.0" />
+                                  </input>
+                                </DropShadow>
+                              </effect>
+                            </Button>
+                            <Button id="button1" defaultButton="true" prefHeight="48.0" prefWidth="67.95841461420059" rotate="322.0" text="Button" textFill="WHITE">
+                              <effect>
+                                <Lighting diffuseConstant="0.26190476190476186" specularConstant="1.173015873015873" specularExponent="16.825396825396826" surfaceScale="2.0">
+                                  <bumpInput>
+                                    <Shadow />
+                                  </bumpInput>
+                                  <light>
+                                    <javafx.scene.effect.Light.Distant color="#a685ff" />
+                                  </light>
+                                </Lighting>
+                              </effect>
+                              <font>
+                                <Font name="Arial Rounded MT Bold" size="14.0" />
+                              </font>
+                            </Button>
+                          </children>
+                        </HBox>
+                        <HBox id="hBox3" prefHeight="100.0" prefWidth="200.0">
+                          <children>
+                            <ComboBox id="comboBox1">
+                              <items>
+                                <FXCollections fx:factory="observableArrayList">
+                                  <String fx:value="Item 1" />
+                                  <String fx:value="Item 2" />
+                                  <String fx:value="Item 3" />
+                                </FXCollections>
+                              </items>
+                            </ComboBox>
+                          </children>
+                        </HBox>
+                        <HBox id="hBox4" prefHeight="100.0" prefWidth="200.0">
+                          <children>
+                            <ChoiceBox id="choiceBox1">
+                              <items>
+                                <FXCollections fx:factory="observableArrayList">
+                                  <String fx:value="Item 1" />
+                                  <String fx:value="Item 2" />
+                                  <String fx:value="Item 3" />
+                                </FXCollections>
+                              </items>
+                            </ChoiceBox>
+                          </children>
+                        </HBox>
+                        <HBox id="hBox5" prefHeight="100.0" prefWidth="200.0">
+                          <children>
+                            <Hyperlink id="hyperlink1" text="Hyperlink" />
+                          </children>
+                        </HBox>
+                        <CheckBox id="checkBox1" text="CheckBox" />
+                        <ToggleButton id="toggleButton1" text="ToggleButton" />
+                      </children>
+                      <padding>
+                        <Insets bottom="20.0" left="20.0" top="20.0" />
+                      </padding>
+                    </VBox>
+                  </content>
+                </ScrollPane>
+              </children>
+            </AnchorPane>
+          </content>
+        </Tab>
+        <Tab id="tab2" text="Tabel (Table)">
+          <content>
+            <AnchorPane id="Content" minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+              <children>
+                <TableView id="tableView1" layoutX="14.0" layoutY="14.0" prefHeight="376.0" prefWidth="462.0" />
+              </children>
+            </AnchorPane>
+          </content>
+        </Tab>
+        <Tab id="tab3" text="Hierarki Pohon (Tree View)">
+          <content>
+            <AnchorPane id="Content" minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+              <children>
+                <TreeView id="treeView1" prefHeight="425.0" prefWidth="468.0" />
+              </children>
+            </AnchorPane>
+          </content>
+        </Tab>
+        <Tab id="tab10" text="Teks (Text) &amp; Label">
+          <content>
+            <AnchorPane id="Content" minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+              <children>
+                <Label id="label1" layoutX="31.0" layoutY="27.0" text="Label" />
+                <TextArea id="textArea1" layoutX="31.0" layoutY="213.0" prefWidth="200.0" text="TextArea" wrapText="true" />
+                <TextField id="textField1" layoutX="31.0" layoutY="171.0" prefWidth="200.0" text="TextField" />
+                <Text id="text1" layoutX="31.0" layoutY="115.0" stroke="BLACK" text="Text" />
+                <PasswordField id="passwordField1" layoutX="31.0" layoutY="397.0" prefWidth="200.0" promptText="password" />
+              </children>
+            </AnchorPane>
+          </content>
+        </Tab>
+        <Tab id="tab4" text="Web View (HTML)">
+          <content>
+            <AnchorPane id="Content" minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+              <children>
+                <ScrollPane id="scrollPane7" prefHeight="439.0" prefWidth="777.0">
+                  <content>
+                    <WebView id="webView1" prefHeight="424.0" prefWidth="777.0" />
+                  </content>
+                </ScrollPane>
+              </children>
+            </AnchorPane>
+          </content>
+        </Tab>
+        <Tab id="tab5" text="Menu">
+          <content>
+            <AnchorPane id="Content" minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+              <children>
+                <ScrollPane id="scrollPane5" layoutX="1.0" prefHeight="439.0" prefWidth="777.0">
+                  <content>
+                    <VBox id="vBox5" prefHeight="200.0" prefWidth="363.0">
+                      <children>
+                        <MenuBar id="menuBar1" prefHeight="24.0" prefWidth="283.0">
+                          <menus>
+                            <Menu id="fileMenu1" text="File">
+                              <items>
+                                <MenuItem id="close1" text="Close" />
+                              </items>
+                            </Menu>
+                            <Menu id="editMenu1" text="Edit">
+                              <items>
+                                <MenuItem id="delete1" text="Delete" />
+                              </items>
+                            </Menu>
+                            <Menu id="helpMenu1" text="Help">
+                              <items>
+                                <MenuItem id="about1" text="About" />
+                              </items>
+                            </Menu>
+                          </menus>
+                        </MenuBar>
+                      </children>
+                    </VBox>
+                  </content>
+                </ScrollPane>
+              </children>
+            </AnchorPane>
+          </content>
+        </Tab>
+        <Tab id="tab6" text="Bentuk (Shape)">
+          <content>
+            <AnchorPane id="Content" minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+              <children>
+                <ScrollPane id="scrollPane6" prefHeight="439.0" prefWidth="777.0">
+                  <content>
+                    <VBox id="vBox6" spacing="20.0">
+                      <children>
+                        <Rectangle id="rectangle1" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="59.73504638671875" stroke="BLACK" strokeType="INSIDE" width="58.0" />
+                        <Circle id="circle1" fill="DODGERBLUE" radius="39.0" stroke="BLACK" strokeType="INSIDE" />
+                        <Polygon id="polygon1" fill="DODGERBLUE" scaleX="0.7100000022888183" scaleY="0.6100000120162964" stroke="BLACK" strokeType="INSIDE">
+                          <points>
+                            <Double fx:value="-50.0" />
+                            <Double fx:value="40.0" />
+                            <Double fx:value="50.0" />
+                            <Double fx:value="40.0" />
+                            <Double fx:value="0.0" />
+                            <Double fx:value="-60.0" />
+                          </points>
+                        </Polygon>
+                        <Ellipse id="ellipse1" fill="DODGERBLUE" radiusX="39.0" radiusY="27.0" stroke="BLACK" strokeType="INSIDE" />
+                        <Line id="line1" endX="100.0" startX="-100.0" />
+                        <Arc id="arc1" fill="DODGERBLUE" length="270.0" radiusX="100.0" radiusY="100.0" scaleX="0.5840916292408758" scaleY="0.875" startAngle="45.0" stroke="BLACK" strokeType="INSIDE" type="ROUND" />
+                        <CubicCurve id="cubicCurve1" controlX1="-50.0" controlX2="50.0" controlY1="-100.0" controlY2="100.0" endX="150.0" fill="DODGERBLUE" startX="-150.0" stroke="BLACK" />
+                      </children>
+                      <padding>
+                        <Insets left="20.0" top="20.0" fx:id="x1" />
+                      </padding>
+                    </VBox>
+                  </content>
+                </ScrollPane>
+              </children>
+            </AnchorPane>
+          </content>
+        </Tab>
+        <Tab id="tab7" text="Diagram (Chart)">
+          <content>
+            <AnchorPane id="Content" minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+              <children>
+                <ScrollPane id="scrollPane1" layoutY="2.0" prefHeight="439.0" prefWidth="777.0">
+                  <content>
+                    <VBox id="vBox1" padding="$x1" spacing="20.0">
+                      <children>
+                        <AreaChart id="AreaChart" prefHeight="258.0" prefWidth="322.0">
+                          <xAxis>
+                            <CategoryAxis id="xAxis1" side="BOTTOM">
+                              <categories>
+                                <FXCollections fx:factory="observableArrayList" />
+                              </categories>
+                            </CategoryAxis>
+                          </xAxis>
+                          <yAxis>
+                            <NumberAxis id="yAxis1" side="LEFT" />
+                          </yAxis>
+                        </AreaChart>
+                        <BarChart id="barChart1">
+                          <xAxis>
+                            <CategoryAxis id="xAxis2" side="BOTTOM">
+                              <categories>
+                                <FXCollections fx:factory="observableArrayList" />
+                              </categories>
+                            </CategoryAxis>
+                          </xAxis>
+                          <yAxis>
+                            <NumberAxis id="yAxis2" side="LEFT" />
+                          </yAxis>
+                        </BarChart>
+                        <BubbleChart id="BubbleChart">
+                          <xAxis>
+                            <NumberAxis id="xAxis3" side="BOTTOM" />
+                          </xAxis>
+                          <yAxis>
+                            <NumberAxis id="yAxis3" side="LEFT" />
+                          </yAxis>
+                        </BubbleChart>
+                        <LineChart id="LineChart">
+                          <xAxis>
+                            <CategoryAxis id="xAxis4" side="BOTTOM">
+                              <categories>
+                                <FXCollections fx:factory="observableArrayList" />
+                              </categories>
+                            </CategoryAxis>
+                          </xAxis>
+                          <yAxis>
+                            <NumberAxis id="yAxis4" side="LEFT" />
+                          </yAxis>
+                        </LineChart>
+                        <PieChart id="PieChart" />
+                        <ScatterChart id="ScatterChart">
+                          <xAxis>
+                            <CategoryAxis id="xAxis5" side="BOTTOM">
+                              <categories>
+                                <FXCollections fx:factory="observableArrayList" />
+                              </categories>
+                            </CategoryAxis>
+                          </xAxis>
+                          <yAxis>
+                            <NumberAxis id="yAxis5" side="LEFT" />
+                          </yAxis>
+                        </ScatterChart>
+                        <StackedAreaChart id="stackedAreaChart1">
+                          <xAxis>
+                            <NumberAxis id="xAxis6" side="BOTTOM" />
+                          </xAxis>
+                          <yAxis>
+                            <NumberAxis id="yAxis6" side="LEFT" />
+                          </yAxis>
+                        </StackedAreaChart>
+                        <StackedBarChart id="stackedBarChart1">
+                          <xAxis>
+                            <CategoryAxis id="xAxis7" side="BOTTOM">
+                              <categories>
+                                <FXCollections fx:factory="observableArrayList" />
+                              </categories>
+                            </CategoryAxis>
+                          </xAxis>
+                          <yAxis>
+                            <NumberAxis id="yAxis7" side="LEFT" />
+                          </yAxis>
+                        </StackedBarChart>
+                      </children>
+                    </VBox>
+                  </content>
+                </ScrollPane>
+              </children>
+            </AnchorPane>
+          </content>
+        </Tab>
+        <Tab id="tab8" text="Layout">
+          <content>
+            <AnchorPane id="Content" minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+              <children>
+                <ScrollPane id="scrollPane2" prefHeight="439.0" prefWidth="777.0">
+                  <content>
+                    <VBox id="vBox2">
+                      <children>
+                        <AnchorPane id="anchorPane1" prefHeight="200.0" prefWidth="200.0" />
+                        <Accordion id="accordion1">
+                          <expandedPane>
+                            <TitledPane id="titledPane2" fx:id="x2" animated="false" text="untitled">
+                              <content>
+                                <AnchorPane id="Content" minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" />
+                              </content>
+                            </TitledPane>
+                          </expandedPane>
+                          <panes>
+                            <TitledPane id="titledPane1" animated="false" text="untitled">
+                              <content>
+                                <AnchorPane id="Content" minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" />
+                              </content>
+                            </TitledPane>
+                            <fx:reference source="x2" />
+                          </panes>
+                        </Accordion>
+                        <FlowPane id="flowPane1" prefHeight="200.0" prefWidth="200.0" />
+                        <GridPane id="gridPane1" prefHeight="72.0" prefWidth="200.0">
+                          <columnConstraints>
+                            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" />
+                            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" />
+                          </columnConstraints>
+                          <rowConstraints>
+                            <RowConstraints minHeight="10.0" vgrow="SOMETIMES" />
+                            <RowConstraints minHeight="10.0" vgrow="SOMETIMES" />
+                            <RowConstraints minHeight="10.0" vgrow="SOMETIMES" />
+                          </rowConstraints>
+                        </GridPane>
+                        <SplitPane id="splitPaneHorizontal1" dividerPositions="0.30198019801980197" focusTraversable="true" prefHeight="160.0" prefWidth="200.0">
+                          <items>
+                            <AnchorPane id="anchorPane2" minHeight="0.0" minWidth="0.0" prefHeight="160.0" prefWidth="100.0" />
+                            <AnchorPane id="anchorPane3" minHeight="0.0" minWidth="0.0" prefHeight="160.0" prefWidth="100.0" />
+                          </items>
+                        </SplitPane>
+                        <ScrollPane id="scrollPane3" prefHeight="200.0" prefWidth="200.0">
+                          <content>
+                            <AnchorPane id="Content" minHeight="0.0" minWidth="0.0" prefHeight="200.0" prefWidth="200.0" />
+                          </content>
+                        </ScrollPane>
+                        <TabPane id="tabPane2" prefHeight="200.0" prefWidth="200.0" tabClosingPolicy="UNAVAILABLE">
+                          <tabs>
+                            <Tab id="tab11" text="Untitled Tab">
+                              <content>
+                                <AnchorPane id="Content" minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" />
+                              </content>
+                            </Tab>
+                          </tabs>
+                        </TabPane>
+                        <TilePane id="tilePane1" prefHeight="200.0" prefWidth="200.0" />
+                        <StackPane id="stackPane1" prefHeight="150.0" prefWidth="200.0" />
+                      </children>
+                    </VBox>
+                  </content>
+                </ScrollPane>
+              </children>
+            </AnchorPane>
+          </content>
+        </Tab>
+        <Tab id="tab9" text="Pengelompokan (Grouping)">
+          <content>
+            <AnchorPane id="Content" minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+              <children>
+                <ScrollPane id="scrollPane4" prefHeight="439.0" prefWidth="777.0">
+                  <content>
+                    <VBox id="vBox3" prefHeight="200.0" prefWidth="100.0">
+                      <children>
+                        <HBox id="hBox1" prefHeight="100.0" prefWidth="200.0" />
+                        <VBox id="vBox4" prefHeight="200.0" prefWidth="100.0" />
+                      </children>
+                    </VBox>
+                  </content>
+                </ScrollPane>
+              </children>
+            </AnchorPane>
+          </content>
+        </Tab>
+      </tabs>
+    </TabPane>
+  </children>
+</AnchorPane>

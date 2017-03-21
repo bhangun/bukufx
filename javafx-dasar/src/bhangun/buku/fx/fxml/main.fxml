@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.collections.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.chart.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.web.*?>
+
+<AnchorPane id="AnchorPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="570.0" prefWidth="777.0" xmlns:fx="http://javafx.com/fxml">
+  <children>
+    <TabPane id="tabPane1" layoutY="100.0" prefHeight="470.0" prefWidth="777.0" tabClosingPolicy="UNAVAILABLE">
+      <tabs>
+       
+        <fx:include source="chart.fxml" />
+        <fx:include source="control.fxml" />
+        <fx:include source="layout.fxml" />
+       <fx:include source="grouping.fxml" />
+       <fx:include source="menu.fxml" />
+       <fx:include source="shape.fxml" />
+    	<fx:include source="text.fxml" />
+    	<fx:include source="tree.fxml" />
+    	<fx:include source="webview.fxml" />
+      </tabs>
+    </TabPane>
+  </children>
+</AnchorPane>

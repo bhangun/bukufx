@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.collections.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.chart.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.web.*?>
+
+
+<Tab id="tab6" text="Bentuk (Shape)" xmlns:fx="http://javafx.com/fxml">
+          <content>
+            <AnchorPane id="Content" minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+              <children>
+                <ScrollPane id="scrollPane6" prefHeight="439.0" prefWidth="777.0">
+                  <content>
+                    <VBox id="vBox6" spacing="20.0">
+                      <children>
+                        <Rectangle id="rectangle1" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="59.73504638671875" stroke="BLACK" strokeType="INSIDE" width="58.0" />
+                        <Circle id="circle1" fill="DODGERBLUE" radius="39.0" stroke="BLACK" strokeType="INSIDE" />
+                        <Polygon id="polygon1" fill="DODGERBLUE" scaleX="0.7100000022888183" scaleY="0.6100000120162964" stroke="BLACK" strokeType="INSIDE">
+                          <points>
+                            <Double fx:value="-50.0" />
+                            <Double fx:value="40.0" />
+                            <Double fx:value="50.0" />
+                            <Double fx:value="40.0" />
+                            <Double fx:value="0.0" />
+                            <Double fx:value="-60.0" />
+                          </points>
+                        </Polygon>
+                        <Ellipse id="ellipse1" fill="DODGERBLUE" radiusX="39.0" radiusY="27.0" stroke="BLACK" strokeType="INSIDE" />
+                        <Line id="line1" endX="100.0" startX="-100.0" />
+                        <Arc id="arc1" fill="DODGERBLUE" length="270.0" radiusX="100.0" radiusY="100.0" scaleX="0.5840916292408758" scaleY="0.875" startAngle="45.0" stroke="BLACK" strokeType="INSIDE" type="ROUND" />
+                        <CubicCurve id="cubicCurve1" controlX1="-50.0" controlX2="50.0" controlY1="-100.0" controlY2="100.0" endX="150.0" fill="DODGERBLUE" startX="-150.0" stroke="BLACK" />
+                      </children>
+                      <padding>
+                        <Insets left="20.0" top="20.0" fx:id="x1" />
+                      </padding>
+                    </VBox>
+                  </content>
+                </ScrollPane>
+              </children>
+            </AnchorPane>
+          </content>
+        </Tab>

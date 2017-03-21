@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.collections.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.chart.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.web.*?>
+
+  <Tab id="tab5" text="Menu" xmlns:fx="http://javafx.com/fxml">
+          <content>
+            <AnchorPane id="Content" minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+              <children>
+                <ScrollPane id="scrollPane5" layoutX="1.0" prefHeight="439.0" prefWidth="777.0">
+                  <content>
+                    <VBox id="vBox5" prefHeight="200.0" prefWidth="363.0">
+                      <children>
+                        <MenuBar id="menuBar1" prefHeight="24.0" prefWidth="283.0">
+                          <menus>
+                            <Menu id="fileMenu1" text="File">
+                              <items>
+                                <MenuItem id="close1" text="Close" />
+                              </items>
+                            </Menu>
+                            <Menu id="editMenu1" text="Edit">
+                              <items>
+                                <MenuItem id="delete1" text="Delete" />
+                              </items>
+                            </Menu>
+                            <Menu id="helpMenu1" text="Help">
+                              <items>
+                                <MenuItem id="about1" text="About" />
+                              </items>
+                            </Menu>
+                          </menus>
+                        </MenuBar>
+                      </children>
+                    </VBox>
+                  </content>
+                </ScrollPane>
+              </children>
+            </AnchorPane>
+          </content>
+        </Tab>

@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.collections.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.chart.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+
+
+<Tab id="tab7" text="Diagram (Chart)" xmlns:fx="http://javafx.com/fxml">
+          <content>
+            <AnchorPane id="Content" minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+              <children>
+                <ScrollPane id="scrollPane1" layoutY="2.0" prefHeight="439.0" prefWidth="777.0">
+                  <content>
+                    <VBox id="vBox1" padding="$x1" spacing="20.0">
+                      <children>
+                        <AreaChart id="AreaChart" prefHeight="258.0" prefWidth="322.0">
+                          <xAxis>
+                            <CategoryAxis id="xAxis1" side="BOTTOM">
+                              <categories>
+                                <FXCollections fx:factory="observableArrayList" />
+                              </categories>
+                            </CategoryAxis>
+                          </xAxis>
+                          <yAxis>
+                            <NumberAxis id="yAxis1" side="LEFT" />
+                          </yAxis>
+                        </AreaChart>
+                        <BarChart id="barChart1">
+                          <xAxis>
+                            <CategoryAxis id="xAxis2" side="BOTTOM">
+                              <categories>
+                                <FXCollections fx:factory="observableArrayList" />
+                              </categories>
+                            </CategoryAxis>
+                          </xAxis>
+                          <yAxis>
+                            <NumberAxis id="yAxis2" side="LEFT" />
+                          </yAxis>
+                        </BarChart>
+                        <BubbleChart id="BubbleChart">
+                          <xAxis>
+                            <NumberAxis id="xAxis3" side="BOTTOM" />
+                          </xAxis>
+                          <yAxis>
+                            <NumberAxis id="yAxis3" side="LEFT" />
+                          </yAxis>
+                        </BubbleChart>
+                        <LineChart id="LineChart">
+                          <xAxis>
+                            <CategoryAxis id="xAxis4" side="BOTTOM">
+                              <categories>
+                                <FXCollections fx:factory="observableArrayList" />
+                              </categories>
+                            </CategoryAxis>
+                          </xAxis>
+                          <yAxis>
+                            <NumberAxis id="yAxis4" side="LEFT" />
+                          </yAxis>
+                        </LineChart>
+                        <PieChart id="PieChart" />
+                        <ScatterChart id="ScatterChart">
+                          <xAxis>
+                            <CategoryAxis id="xAxis5" side="BOTTOM">
+                              <categories>
+                                <FXCollections fx:factory="observableArrayList" />
+                              </categories>
+                            </CategoryAxis>
+                          </xAxis>
+                          <yAxis>
+                            <NumberAxis id="yAxis5" side="LEFT" />
+                          </yAxis>
+                        </ScatterChart>
+                        <StackedAreaChart id="stackedAreaChart1">
+                          <xAxis>
+                            <NumberAxis id="xAxis6" side="BOTTOM" />
+                          </xAxis>
+                          <yAxis>
+                            <NumberAxis id="yAxis6" side="LEFT" />
+                          </yAxis>
+                        </StackedAreaChart>
+                        <StackedBarChart id="stackedBarChart1">
+                          <xAxis>
+                            <CategoryAxis id="xAxis7" side="BOTTOM">
+                              <categories>
+                                <FXCollections fx:factory="observableArrayList" />
+                              </categories>
+                            </CategoryAxis>
+                          </xAxis>
+                          <yAxis>
+                            <NumberAxis id="yAxis7" side="LEFT" />
+                          </yAxis>
+                        </StackedBarChart>
+                      </children>
+                    </VBox>
+                  </content>
+                </ScrollPane>
+              </children>
+            </AnchorPane>
+          </content>
+        </Tab>
